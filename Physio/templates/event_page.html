@@ -1,0 +1,57 @@
+{% extends 'base.html' %}
+{% load i18n %}
+
+
+{% block content %}
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+    <script src="{% static 'slideshow.js' %}"></script>
+
+
+    <div class="consultation_box">
+        <a href="{% url 'index' %}" class="back-button"> « Back </a>
+        {% get_current_language as LANGUAGE_CODE %}
+
+        <h2 class="consultation_title">
+            {% if LANGUAGE_CODE == 'en' %}
+                {{ event_detail.event_name_en }}
+            {% else %}
+                {{ event_detail.event_name }}
+            {% endif %}
+        </h2>
+        {% if event_images %}
+            <div class="slideshow-container">
+                {% for image in event_images %}
+                    <div class="mySlides fade">
+                        <img src="{{ image.image.url }}" alt="Event Photo"
+                             style="width:90%; display: block; margin: auto; position: relative; top: 50%; transform: translateY(-50%);">
+                    </div>
+                {% endfor %}
+
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <ol></ol>
+            <div style="text-align:center">
+                {% for image in event_images %}
+                    <span class="dot" onclick="currentSlide({{ forloop.counter }})"></span>
+                {% endfor %}
+            </div>
+        {% else %}
+            <img class="event_page_image" src="{{ event_detail.event_cover.url }}" alt="Event Photo">
+        {% endif %}
+
+
+        <label class="consultation_detail">
+            <b>{{ event_detail.date }}</b>
+            <p>
+                {% if LANGUAGE_CODE == 'en' %}
+                    {{ event_detail.details.en }}
+                {% else %}
+                    {{ event_detail.details }}
+                {% endif %}
+            </p>
+        </label>
+    </div>
+
+{% endblock %}

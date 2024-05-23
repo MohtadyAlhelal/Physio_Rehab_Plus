@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+{% load i18n %}
+
+
+{% block content %}
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+
+    <div class="consultation_box">
+        <a href="{% url 'index' %}" class="back-button"> « Back </a>
+
+        <h4 class="consultation_title">
+            {% translate 'MEDECINE GENERALE' %}
+        </h4>
+        <img class="consultation_img" src="{% static 'MEDECINE GENERALE.jpg' %}" alt="MEDEINE GENERALCE image">
+        <label class="consultation_detail">
+
+            {% for service in consult %}
+                {% get_current_language as LANGUAGE_CODE %}
+
+                {% if LANGUAGE_CODE == 'en' %}
+                    <p>{{ service.detail_en }}</p>
+                {% else %}
+                    <p>{{ service.detail | safe }}</p>
+                {% endif %}
+            {% endfor %}
+
+        </label>
+
+    </div>
+
+{% endblock %}

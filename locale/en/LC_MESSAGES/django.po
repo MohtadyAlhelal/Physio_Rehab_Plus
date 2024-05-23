@@ -1,0 +1,91 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-05-22 15:51+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: .\Physio\templates\Base.html:18
+msgid "CENTRE DE MEDECINE DU SPORT"
+msgstr "SPORTS MEDICINE CENTER"
+
+#: .\Physio\templates\home.html:14
+msgid "Au coeur de votre performance physique"
+msgstr "At the heart of your physical performance"
+
+#: .\Physio\templates\home.html:24
+msgid "Présentation"
+msgstr "Overview"
+
+#: .\Physio\templates\home.html:26
+msgid ""
+"Le CMS Physio Rehab Plus est une structure médicale spécialisée en Médecine "
+"du sport, kinésithérapie, rehabitlitation fonctionelle et réathlétisation."
+msgstr "CMS Physio Rehab Plus is a medical structure specializing in sports medicine, physiotherapy, functional rehabilitation and rehabilitation."
+
+#: .\Physio\templates\home.html:34
+msgid "Nos Missions"
+msgstr "Our Missions"
+
+#: .\Physio\templates\home.html:37
+msgid ""
+"Apporter des soins de qualité à nos patients au travers de l’implémentation "
+"de technologies novatrices dans le domaine de la médecine du sport et de la "
+"kinésithérapie."
+msgstr "Providing quality care to our patients through the implementation of innovative technologies in the field of sports medicine and physiotherapy."
+
+#: .\Physio\templates\home.html:41
+msgid "Améliorer la santé physique de nos populations."
+msgstr "Improve the physical health of our populations."
+
+#: .\Physio\templates\home.html:45
+msgid ""
+"Vulgariser les nouvelles méthodes de soins et de prise en charge en matière "
+"de médecine du sport et kinési/physiothérapie."
+msgstr "Popularize new methods of care and support in sports medicine and physiotherapy/physiotherapy."
+
+#: .\Physio\templates\home.html:51
+msgid "Prestations de service"
+msgstr "Services"
+
+#: .\Physio\templates\home.html:91 .\Physio\templates\medecine_generale.html:13
+msgid "MEDECINE GENERALE"
+msgstr "GENERAL MEDICINE"
+
+#: .\Physio\templates\home.html:106
+#: .\Physio\templates\imagerie_medicale.html:12
+msgid "IMAGERIE MEDICALE"
+msgstr "MEDICAL IMAGING"
+
+#: .\Physio\templates\home.html:122
+msgid "FONCTIONNELLE"
+msgstr "FUNCTIONAL"
+
+#: .\Physio\templates\home.html:137
+msgid "Événements"
+msgstr "Events"
+
+#: .\Physio\templates\home.html:169
+msgid "Les partenaires"
+msgstr "Partners"
+
+#: .\Physio\templates\home.html:186
+msgid "Emplacement"
+msgstr "Location"
+
+#: .\Physio\templates\rehabilitation_fonctionnelle.html:12
+msgid "REHABILITATION FONCTIONNELLE"
+msgstr "FUNCTIONAL REHABILITATION"

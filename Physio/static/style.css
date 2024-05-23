@@ -1,0 +1,435 @@
+* {
+    box-sizing: border-box
+}
+
+/* Slideshow container */
+.home {
+    padding-top: 48px;
+    position: relative;
+    max-width: 600px;
+    margin: auto
+}
+
+.home_page_photo {
+    width: 100%;
+}
+
+header {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    z-index: 1000
+}
+
+.header_box {
+    width: 100%;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(30, 30, 30, 0.15);
+    position: relative;
+    mix-blend-mode: darken;
+}
+
+.header_content {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.header_img {
+    width: 63px;
+    height: 42px;
+}
+
+.header_text {
+    text-align: center;
+}
+
+.header_label_one {
+    color: #29ABE2;
+    font-size: 14px;
+    font-weight: 700;
+    display: block;
+}
+
+.header_label_two {
+    color: #E59435;
+    font-size: 14px;
+    font-weight: 700;
+    display: block;
+}
+
+.consultation_box {
+    position: relative;
+    max-width: 600px;
+    display: block;
+    margin: 60px auto;
+    background-color: #D9D9D9
+}
+
+.event_page_image {
+    width: fit-content;
+    height: 200px;
+    padding-bottom: 20px;
+    display: block;
+    margin: auto
+}
+
+
+.consultation_title {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: black;
+    word-wrap: break-word;
+    padding-top: 20px;
+}
+
+.back-button {
+    width: 70px;
+    height: 35px;
+    position: absolute;
+    padding: 8px 10px;
+    margin: 10px;
+    color: #ffffff;
+    background-color: #007BFF;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.consultation_img {
+    width: 60%;
+    display: block;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+.consultation_detail {
+    width: 90%;
+    display: block;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+.logo_box {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 47px;
+    opacity: 0.80;
+    background: white;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px
+}
+
+.logo_words {
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+}
+
+.overview_box {
+    margin-top: 20px;
+}
+
+.overview_content {
+    width: 90%;
+    height: 100%;
+    background: #29ABE2;
+    margin: auto;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px
+}
+
+.overview_photo {
+    width: 30px;
+    height: 40px;
+    display: block;
+    margin: auto;
+    padding-top: 20px
+}
+
+.overview_title {
+    height: 100%;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    word-wrap: break-word
+}
+
+.overview_details {
+    height: 100%;
+    text-align: center;
+    color: white;
+    padding-bottom: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 14px;
+    font-weight: 400;
+    word-wrap: break-word
+}
+
+.mission_box {
+    margin-top: -20px
+}
+
+.mission_content {
+    width: 90%;
+    height: 100%;
+    background: #E59435;
+    margin: auto;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px
+}
+
+.mission_title {
+    height: 100%;
+    padding-top: 20px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    word-wrap: break-word
+}
+
+.mission_details {
+    height: 100%;
+    text-align: center;
+    color: white;
+    padding-bottom: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 14px;
+    font-weight: 400;
+    word-wrap: break-word
+}
+
+.topic {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: black;
+    word-wrap: break-word
+}
+
+.services_box {
+    width: 100%;
+    height: 100%;
+}
+
+.services_first_content {
+    width: 100%;
+    height: 130px;
+    position: relative
+}
+
+.services_background {
+    width: 100%;
+    height: 90px;
+    position: absolute;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply
+}
+
+.services_title {
+    width: 100%;
+    top: 29%;
+    position: absolute;
+    text-align: center;
+    color: #D9D9D9;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+
+.services_image {
+    width: 30px;
+    height: 30px;
+    margin-top: 30px;
+    margin-left: 80%;
+    position: absolute;
+    z-index: 2;
+}
+
+.services_content {
+    width: 100%;
+    height: 130px;
+    position: relative;
+    margin-top: -35px
+}
+
+#second_title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+}
+
+span {
+    line-height: 1.2;
+}
+
+.Partner_box {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    margin-bottom: 20px;
+}
+
+.partner_logo {
+    width: auto;
+    height: 60px;
+    position: relative;
+    justify-self: center;
+    align-self: center;
+}
+
+footer {
+    width: 100%;
+    left: 0;
+    position: absolute;
+    height: 120px;
+    background: #29ABE2
+}
+
+.footer_title {
+    left: 5vw;
+    position: absolute
+}
+
+.left_footer_img {
+    height: 15px;
+    left: 5vw;
+    top: 50px;
+    position: absolute
+}
+
+.left_footer_detail {
+    left: 10vw;
+    top: 29px;
+    position: absolute
+}
+
+.right_footer_img {
+    height: 15px;
+    left: 65vw;
+    top: 50px;
+    position: absolute
+}
+
+.right_footer_detail {
+    left: 70vw;
+    top: 29px;
+    position: absolute
+}
+
+.slideshow-container {
+    max-width: 320px;
+    position: relative;
+    margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+    height: 200px;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 3px;
+    user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: -30px;
+    border-radius: 3px;
+}
+
+.prev {
+    left: -30px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+.dot {
+
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+    background-color: #717171;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+.language-switcher {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.language-button {
+    padding: 5px 10px;
+    margin: 5px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.language-button:hover {
+    background-color: #0056b3;
+}

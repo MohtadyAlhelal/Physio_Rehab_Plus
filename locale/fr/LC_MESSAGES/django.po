@@ -1,0 +1,98 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-05-22 15:46+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: .\Physio\templates\Base.html:18
+msgid "CENTRE DE MEDECINE DU SPORT"
+msgstr "CENTRE DE MEDECINE DU SPORT"
+
+#: .\Physio\templates\home.html:14
+msgid "Au coeur de votre performance physique"
+msgstr "Au coeur de votre performance physique"
+
+#: .\Physio\templates\home.html:24
+msgid "Présentation"
+msgstr "Présentation"
+
+#: .\Physio\templates\home.html:26
+msgid ""
+"Le CMS Physio Rehab Plus est une structure médicale spécialisée en Médecine "
+"du sport, kinésithérapie, rehabitlitation fonctionelle et réathlétisation."
+msgstr ""
+"Le CMS Physio Rehab Plus est une structure médicale spécialisée en Médecine "
+"du sport, kinésithérapie, rehabitlitation fonctionelle et réathlétisation."
+
+#: .\Physio\templates\home.html:34
+msgid "Nos Missions"
+msgstr "Nos Missions"
+
+#: .\Physio\templates\home.html:37
+msgid ""
+"Apporter des soins de qualité à nos patients au travers de l’implémentation "
+"de technologies novatrices dans le domaine de la médecine du sport et de la "
+"kinésithérapie."
+msgstr ""
+"Apporter des soins de qualité à nos patients au travers de l’implémentation "
+"de technologies novatrices dans le domaine de la médecine du sport et de la "
+"kinésithérapie."
+
+#: .\Physio\templates\home.html:41
+msgid "Améliorer la santé physique de nos populations."
+msgstr "Améliorer la santé physique de nos populations."
+
+#: .\Physio\templates\home.html:45
+msgid ""
+"Vulgariser les nouvelles méthodes de soins et de prise en charge en matière "
+"de médecine du sport et kinési/physiothérapie."
+msgstr ""
+"Vulgariser les nouvelles méthodes de soins et de prise en charge en matière "
+"de médecine du sport et kinési/physiothérapie."
+
+#: .\Physio\templates\home.html:51
+msgid "Prestations de service"
+msgstr "Prestations de service"
+
+#: .\Physio\templates\home.html:91 .\Physio\templates\medecine_generale.html:13
+msgid "MEDECINE GENERALE"
+msgstr "MEDECINE GENERALE"
+
+#: .\Physio\templates\home.html:106
+#: .\Physio\templates\imagerie_medicale.html:12
+msgid "IMAGERIE MEDICALE"
+msgstr "IMAGERIE MEDICALE"
+
+#: .\Physio\templates\home.html:122
+msgid "FONCTIONNELLE"
+msgstr "FONCTIONNELLE"
+
+#: .\Physio\templates\home.html:137
+msgid "Événements"
+msgstr "Événements"
+
+#: .\Physio\templates\home.html:169
+msgid "Les partenaires"
+msgstr "Les partenaires"
+
+#: .\Physio\templates\home.html:186
+msgid "Emplacement"
+msgstr "Emplacement"
+
+#: .\Physio\templates\rehabilitation_fonctionnelle.html:12
+msgid "REHABILITATION FONCTIONNELLE"
+msgstr "REHABILITATION FONCTIONNELLE"
