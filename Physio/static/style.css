@@ -4,9 +4,9 @@
 
 /* Slideshow container */
 .home {
-    padding-top: 48px;
+    padding-top: 10px;
     position: relative;
-    max-width: 600px;
+    max-width: 1000px;
     margin: auto
 }
 
@@ -19,13 +19,13 @@ header {
     height: 100%;
     top: 0;
     left: 0;
-    position: fixed;
-    z-index: 1000
+    position: sticky;
+    z-index: 10;
 }
 
 .header_box {
     width: 100%;
-    height: 48px;
+    height: 70px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -41,8 +41,8 @@ header {
 }
 
 .header_img {
-    width: 63px;
-    height: 42px;
+    width: 90px;
+    height: 70px;
 }
 
 .header_text {
@@ -51,23 +51,23 @@ header {
 
 .header_label_one {
     color: #29ABE2;
-    font-size: 14px;
-    font-weight: 700;
+    font-size: 20px;
+    font-weight: 400;
     display: block;
 }
 
 .header_label_two {
     color: #E59435;
-    font-size: 14px;
-    font-weight: 700;
+    font-size: 20px;
+    font-weight: 400;
     display: block;
 }
 
 .consultation_box {
     position: relative;
-    max-width: 600px;
+    max-width: 800px;
     display: block;
-    margin: 60px auto;
+    margin: 10px auto;
     background-color: #D9D9D9
 }
 
@@ -86,6 +86,7 @@ header {
     text-align: center;
     color: black;
     word-wrap: break-word;
+    font-size:25px;
     padding-top: 20px;
 }
 
@@ -130,7 +131,7 @@ header {
 .logo_words {
     text-align: center;
     margin: 0;
-    padding: 10px;
+    font-size: 30px;
 }
 
 .overview_box {
@@ -147,8 +148,8 @@ header {
 }
 
 .overview_photo {
-    width: 30px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     display: block;
     margin: auto;
     padding-top: 20px
@@ -158,7 +159,7 @@ header {
     height: 100%;
     text-align: center;
     color: white;
-    font-size: 20px;
+    font-size: 30px;
     font-weight: 400;
     word-wrap: break-word
 }
@@ -170,7 +171,7 @@ header {
     padding-bottom: 30px;
     padding-left: 50px;
     padding-right: 50px;
-    font-size: 14px;
+    font-size: 20px;
     font-weight: 400;
     word-wrap: break-word
 }
@@ -184,6 +185,8 @@ header {
     height: 100%;
     background: #E59435;
     margin: auto;
+    font-size: 20px;
+    font-weight: 400;
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px
 }
@@ -193,7 +196,7 @@ header {
     padding-top: 20px;
     text-align: center;
     color: white;
-    font-size: 20px;
+    font-size: 30px;
     font-weight: 400;
     word-wrap: break-word
 }
@@ -205,7 +208,7 @@ header {
     padding-bottom: 30px;
     padding-left: 50px;
     padding-right: 50px;
-    font-size: 14px;
+    font-size: 20px;
     font-weight: 400;
     word-wrap: break-word
 }
@@ -246,6 +249,7 @@ header {
     color: #D9D9D9;
     transform: translateY(-50%);
     z-index: 1;
+    font-size:30px;
 }
 
 .services_image {
@@ -286,7 +290,7 @@ span {
 
 .partner_logo {
     width: auto;
-    height: 60px;
+    height: 100px;
     position: relative;
     justify-self: center;
     align-self: center;
@@ -296,45 +300,48 @@ footer {
     width: 100%;
     left: 0;
     position: absolute;
-    height: 120px;
+    height: 180px;
     background: #29ABE2
 }
 
 .footer_title {
     left: 5vw;
+    font-size:25px;
     position: absolute
 }
 
 .left_footer_img {
-    height: 15px;
+    height: 25px;
     left: 5vw;
-    top: 50px;
+    top: 60px;
     position: absolute
 }
 
 .left_footer_detail {
     left: 10vw;
-    top: 29px;
+    top: 35px;
+    font-size:20px;
     position: absolute
 }
 
 .right_footer_img {
-    height: 15px;
-    left: 65vw;
-    top: 50px;
+    height: 25px;
+    left: 55vw;
+    top: 60px;
     position: absolute
 }
 
 .right_footer_detail {
-    left: 70vw;
-    top: 29px;
+    left: 60vw;
+    top: 35px;
+    font-size:20px;
     position: absolute
 }
 
 .slideshow-container {
-    max-width: 320px;
+    max-width: 500px;
     position: relative;
-    margin: auto;
+    margin: 50px auto;
 }
 
 /* Hide the images by default */
@@ -389,7 +396,8 @@ footer {
     cursor: pointer;
     height: 15px;
     width: 15px;
-    margin: 0 2px;
+    margin-top:120px;
+    margin-right:4px;
     background-color: #bbb;
     border-radius: 50%;
     display: inline-block;
@@ -420,6 +428,9 @@ footer {
 }
 
 .language-button {
+    width:80px;
+    height:40px;
+    font-size:15px;
     padding: 5px 10px;
     margin: 5px;
     border: none;
