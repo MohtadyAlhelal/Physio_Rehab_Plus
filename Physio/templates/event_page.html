@@ -14,9 +14,9 @@
 
         <h2 class="consultation_title">
             {% if LANGUAGE_CODE == 'en' %}
-                {{ event_detail.event_name_en }}
+                {{ event_detail.event_name_en | safe}}
             {% else %}
-                {{ event_detail.event_name }}
+                {{ event_detail.event_name | safe}}
             {% endif %}
         </h2>
         {% if event_images %}
@@ -46,9 +46,9 @@
             <b>{{ event_detail.date }}</b>
             <p>
                 {% if LANGUAGE_CODE == 'en' %}
-                    {{ event_detail.details.en }}
+                    {{ event_detail.details_en | safe}}
                 {% else %}
-                    {{ event_detail.details }}
+                    {{ event_detail.details | safe}}
                 {% endif %}
             </p>
         </label>

@@ -8,6 +8,7 @@
 
     <div class="consultation_box">
         <a href="{% url 'index' %}" class="back-button"> « Back </a>
+        {% get_current_language as LANGUAGE_CODE %}
 
         <h4 class="consultation_title">{% translate 'REHABILITATION FONCTIONNELLE' %}</h4>
         <img class="consultation_img" src="{% static 'REHABILITATION FONCTIONNELLE.JPG' %}"
@@ -15,10 +16,9 @@
         <label class="consultation_detail">
 
             {% for service in consult %}
-                {% get_current_language as LANGUAGE_CODE %}
 
                 {% if LANGUAGE_CODE == 'en' %}
-                    <p>{{ service.detail_en }}</p>
+                    <p>{{ service.detail_en | safe}}</p>
                 {% else %}
                     <p>{{ service.detail | safe }}</p>
                 {% endif %}

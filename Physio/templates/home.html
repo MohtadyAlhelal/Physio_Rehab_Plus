@@ -146,9 +146,9 @@
                         <div class="mySlides fade">
                             <h2 style="text-align: center">
                                 {% if LANGUAGE_CODE == 'en' %}
-                                    {{ event.event_name_en }}
+                                    {{ event.event_name_en | safe}}
                                 {% else %}
-                                    {{ event.event_name }}
+                                    {{ event.event_name | safe}}
                                 {% endif %}
                             </h2>
                             <img src="{{ event.event_cover.url }}" alt="Event Photo"

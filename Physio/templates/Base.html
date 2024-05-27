@@ -24,19 +24,24 @@
             <div class="language-switcher">
                 {% get_current_language as LANGUAGE_CODE %}
                 {% get_available_languages as LANGUAGES %}
-                {% for lang in LANGUAGES %}
-                    {% if lang.0 != LANGUAGE_CODE %}
+                {% for lang_code, lang_name in LANGUAGES %}
+                    {% if lang_code != LANGUAGE_CODE %}
                         <form action="{% url 'set_language' %}" method="post" style="display: inline;">
                             {% csrf_token %}
                             <input name="next" type="hidden" value="{{ request.get_full_path }}">
-                            <input name="language" type="hidden" value="{{ lang.0 }}">
+                            <input name="language" type="hidden" value="{{ lang_code }}">
                             <button type="submit" class="language-button">
-                                {{ lang.1 }}
+                                {% if LANGUAGE_CODE == "fr" %}
+                                    English
+                                {% else %}
+                                    French
+                                {% endif %}
                             </button>
                         </form>
                     {% endif %}
                 {% endfor %}
             </div>
+
 
         </div>
     </div>
