@@ -228,13 +228,13 @@ header {
 
 .services_first_content {
     width: 100%;
-    height: 130px;
+    height: 170px;
     position: relative
 }
 
 .services_background {
     width: 100%;
-    height: 90px;
+    height: 130px;
     position: absolute;
     background-size: cover;
     background-position: center;
@@ -255,7 +255,7 @@ header {
 .services_image {
     width: 30px;
     height: 30px;
-    margin-top: 30px;
+    margin-top: 50px;
     margin-left: 80%;
     position: absolute;
     z-index: 2;
@@ -263,7 +263,7 @@ header {
 
 .services_content {
     width: 100%;
-    height: 130px;
+    height: 170px;
     position: relative;
     margin-top: -35px
 }

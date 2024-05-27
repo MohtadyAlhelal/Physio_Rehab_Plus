@@ -24,7 +24,7 @@ SECRET_KEY = 'django-insecure-2jla_(2s5l-4_984=8)o+y)l-%z%*z9dquplub7vfcmu_8r6&e
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['www.physiorehabplus.com','physiorehabplus.com','www.PhysioRehabPlus.com']
+ALLOWED_HOSTS = []
 
 # Application definition
 
@@ -141,3 +141,9 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+
+try:
+    from .local_settings import *
+except Exception as e:
+    print(e)
+    print("couldn't import local settings!!")
